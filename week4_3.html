@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            background-image: url(./images/white-2484120_1280.png);
+            background-repeat: no-repeat;
+
+
+        }
+
+        .wrapper {
+            display:flex;
+            flex-direction: column;
+            min-height: 400px;
+            background-color: transparent;
+            width: 80%;
+            margin: auto;  
+        }
+
+        .banner{
+
+            display:flex;
+            flex-direction: column;
+            min-height: 50px;
+            background-color: lightgrey;
+            justify-items: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            color: black;
+            
+        }
+
+        .banner img {
+            width: 100%;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+        }
+
+        .navigation{
+
+            display:flex;
+            flex-direction: row;
+            min-height: 20px;
+            background-color: darkgoldenrod;
+            justify-items: center;
+            align-items: center;
+            margin-top: 10px;
+            justify-content: space-between;
+
+        }
+
+        .main {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sidebar {
+
+            display:flex;
+            flex-direction: column;
+            background-color: lightgoldenrodyellow;
+            flex-basis: 20%;
+            /* min-height: 10px; */
+            margin-top: 10px;
+
+        }
+
+        .body {
+
+            display:flex;
+            flex-direction: column;
+            background-color: lightgoldenrodyellow;
+            flex-basis: 75%;
+            margin-top: 10px;
+
+        }
+
+        .footer {
+
+            display:flex;
+            flex-direction: column;
+            background-color: darkgoldenrod;
+            margin-top: 10px;
+            justify-items: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="./images/banner-1391996_1280.jpg" alt="">
+            <div class="centered">My Blog</div>
+        </div>
+        <div class="navigation">
+            <a href="">Home</a>
+            <a href="">About Me</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam doloribus repudiandae unde qui, mollitia vero ducimus voluptates libero fugiat deleniti illo iste pariatur dolor, delectus nesciunt, obcaecati animi officiis?
+            </div>
+            <div class="body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, deleniti. Adipisci, magnam repellat illo vel facilis sint? Consectetur sapiente vel, molestias aliquam voluptate molestiae exercitationem, vero atque neque unde consequuntur obcaecati velit. Expedita accusantium id dolore atque eveniet earum et quos! Doloribus vitae, odit ab earum dolores cumque beatae! Eius nemo ducimus, earum, consequuntur dolorem iure fugit, cum recusandae tempora dolor assumenda quasi. Non eos quibusdam consequuntur incidunt, laboriosam illo dignissimos, sunt laudantium, odio natus repellendus ab quaerat inventore et tenetur quisquam ipsum. Asperiores at reprehenderit tenetur nulla quas quos, ipsa tempore enim accusamus id error voluptates commodi ipsam accusantium?
+            </div>
+        </div>
+        <div class="footer">
+            &copy Nur Ariffin Mohd Zin
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>

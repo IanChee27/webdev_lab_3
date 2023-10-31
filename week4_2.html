@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .wrapper {
+            display:flex;
+            flex-direction: column;
+            min-height: 400px;
+            background-color: orange;
+            width: 80%;
+            margin: auto;  
+        }
+
+        .banner{
+
+            display:flex;
+            flex-direction: column;
+            min-height: 50px;
+            background-color: lightgrey;
+            justify-items: center;
+            align-items: center;
+            
+        }
+
+        .navigation{
+
+            display:flex;
+            flex-direction: column;
+            min-height: 20px;
+            background-color: lightgrey;
+            justify-items: center;
+            align-items: center;
+            margin-top: 10px;
+
+        }
+
+        .main {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sidebar {
+
+            display:flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            flex-basis: 20%;
+            /* min-height: 10px; */
+            margin-top: 10px;
+
+        }
+
+        .body {
+
+            display:flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            flex-basis: 75%;
+            margin-top: 10px;
+
+        }
+
+        .footer {
+
+            display:flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            margin-top: 10px;
+            justify-items: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            Banner
+        </div>
+        <div class="navigation">
+            Navigation
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                Side Bar
+            </div>
+            <div class="body">
+                Body Area
+            </div>
+        </div>
+        <div class="footer">
+            Footer
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
