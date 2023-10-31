@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blog</title>
     <style>
         * {
             margin: 0px;
@@ -87,7 +87,7 @@
         .body {
 
             display:flex;
-            flex-direction: column;
+            flex-direction: row;
             background-color: lightgoldenrodyellow;
             flex-basis: 75%;
             margin-top: 10px;
@@ -102,7 +102,17 @@
             margin-top: 10px;
             justify-items: center;
             align-items: center;
+        }
 
+        .body > p {
+            order: 1;
+            /* flex-grow: 1;
+            margin-right: 70px; */
+        }
+
+        .body > img {
+            order: 2;
+            width: 200px;
         }
     </style>
 </head>
@@ -122,16 +132,13 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam doloribus repudiandae unde qui, mollitia vero ducimus voluptates libero fugiat deleniti illo iste pariatur dolor, delectus nesciunt, obcaecati animi officiis?
             </div>
             <div class="body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, deleniti. Adipisci, magnam repellat illo vel facilis sint? Consectetur sapiente vel, molestias aliquam voluptate molestiae exercitationem, vero atque neque unde consequuntur obcaecati velit. Expedita accusantium id dolore atque eveniet earum et quos! Doloribus vitae, odit ab earum dolores cumque beatae! Eius nemo ducimus, earum, consequuntur dolorem iure fugit, cum recusandae tempora dolor assumenda quasi. Non eos quibusdam consequuntur incidunt, laboriosam illo dignissimos, sunt laudantium, odio natus repellendus ab quaerat inventore et tenetur quisquam ipsum. Asperiores at reprehenderit tenetur nulla quas quos, ipsa tempore enim accusamus id error voluptates commodi ipsam accusantium?
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sit delectus incidunt sapiente repellat deserunt natus praesentium maxime eveniet, quasi doloribus ad tenetur, quisquam corporis sed pariatur blanditiis nostrum eos consectetur facilis non sequi ab. Veniam quasi error cupiditate architecto maiores placeat officia eius nisi! Nobis ea velit repellat explicabo ratione sapiente odio quod atque numquam? Non, impedit. Porro, enim? Vel earum voluptatem beatae voluptatibus vero sequi, dolore animi amet atque placeat nostrum suscipit eveniet dolorem odio repellat velit commodi? Cupiditate, voluptas assumenda cumque blanditiis id ratione. Consequatur repellendus saepe illo perferendis. Vero nesciunt placeat excepturi saepe cumque fugit earum?</p>
+                <img src="./images/Flag_of_Palestine.svg.png" alt="">
             </div>
         </div>
         <div class="footer">
             &copy Nur Ariffin Mohd Zin
         </div>
-
-
-
-
     </div>
 </body>
 </html>
